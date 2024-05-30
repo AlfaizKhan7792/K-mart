@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* gfh start */
+.gfh{
+    background-color: #a61111;
+    color: white;
+    font-size: 12px;
+}
+.gfh button{
+    color: white;
+    font-size: 12px;
+}
+.gfh > a{
+    text-decoration: none;
+    color: white;
+}
+/* gfh closed */
+
+/* nav start */
+nav{
+    background-color: #CC1414;
+}
+nav a{
+    color: white !important;
+}
+nav button{
+    color: white !important;
+}
+nav button:hover{
+    background-color: #a61111;
+}
+nav .dropdown ul li a{
+    color: black !important;
+}
+/* nav closed */
+
+/* img start */
+.container img{
+    padding-top: 20px;
+    width: 100%;
+}
+/* img closed */
+
+/* si start */
+.si h1{
+    margin: 33px 0 43px;
+    font-size: 2.27778rem;
+    font-weight: bold;
+}
+.mt a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 9px 15px;
+}
+.mt p{
+    margin: 30px 1px 0;
+    color: #a61111;
+}
+.mt a img{
+    width: 138px;
+}
+/* si closed */
+
+/* ui start */
+.ui h1{
+    font-size: 3.72222rem;
+    margin: 61px 0 10px;
+}
+.ui a:nth-child(3){
+    margin-block-start: 10px;
+    text-decoration: none;
+    color: #a61111;
+}
+/* ui closed */
+
+/* smci start */
+.smt a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 9px;
+}
+.smt p{
+    margin: 28px 1px 0;
+    text-align: center;
+    color: #a61111;
+}
+.smt a img{
+    width: 163px;
+}
+/* smci closed */
+
+/* ni start */
+.ni h1{
+    margin: 60px 0 31px;
+}
+.ni .ii a img{
+    width: 100%;
+}
+.ni > a{
+    margin-block: 10px;
+    text-decoration: none;
+    color: #a61111;
+}
+/* ni closed */
+
+/* sqoa-ul start */
+.sqoa-ul{
+    padding-top: 70px;
+    padding-bottom: 21px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 0;
+    padding-inline-start: 0;
+    background-color: #f9f9f9;
+}
+.sqoa-ul .ul-li .ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    list-style: none;
+    gap: 16px;
+    padding: 0;
+}
+.sqoa-ul .ul-li .ul li{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    color: #001733;
+}
+.ul li::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #B10017;
+    transition: width .3s;
+}
+
+.ul li:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+
+.ul li:first-child:hover{
+    text-decoration: none;
+    transition: all 2s ease-in-out;
+}
+.sqoa-ul .ul-li .ul li:first-child{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-bottom: 4px;
+}
+.sqoa-ul .ul-li .ul li h3{
+    font-size: 18px;
+    margin: 0;
+}
+/* sqoa-ul closed */
+
+/* ccaip start */
+.ccaip{
+    background-color: #dbdde0;
+    padding: 45px;
+}
+.ccaip ul{
+    list-style: none;
+    padding: 14px 214px;
+    font-size: 14px;
+}
+/* ccaip start */
+
+/* i start */
+.i{
+    gap: 85px;
+}
+.i img{
+    width: 115px;
+}
+/* i closed */
+
+hr{
+    width: auto;
+    margin: 16px 45px 16px 30px;
+}
+
+/* itf start */
+.itf{
+    padding: 20px 106px;
+}
+.itf img{
+    width: 80px;
+}
+.itf .ftyi a{
+    text-decoration: none;
+
+}
+.ftyi a img{
+    width: 40px;
+}
+/* itf closed */
+
+/* gtt start */
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 50px;
+    bottom: 50px;
+    z-index: 99999;
+    background: #B10017;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+.align-items-center {
+    align-items: center !important;
+}
+.justify-content-center {
+    justify-content: center !important;
+}
+.d-flex {
+    display: flex !important;
+}
+.btt a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* gtt closed */
